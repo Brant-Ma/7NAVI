@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />	
+
+	<!--favicon generator-->
+	<meta name="theme-color" content="#ffffff"/>
+	<meta name="msapplication-TileColor" content="#00aba9"/>
+	<meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
+	<link rel="manifest" href="favicons/manifest.json"/>
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png"/>
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png"/>
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png"/>
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png"/>
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16"/>
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32"/>
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96"/>
+	<link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192"/>
+
+	<title>7NAVI | 彩虹导航</title>
+
+	<link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style/general.css" />
+
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="script/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage'],
+				sectionsColor: ['#e74c3c', '#e67e22', '#f1c40f', '#3ed37d', '#1abc9c', '#3498db', '#9b59b6'],
+				menu: '#menu',
+				continuousVertical: true,
+				slidesNavigation: true,
+				navigation: true,
+				navigationPosition: 'right',
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<ul id="menu">
+	<a id="logo" href="http://7brant.me" title="Back Home"><img src="../../picture/logos/chopper.png" alt=""></a>
+	<li data-menuanchor="1stPage" class="active"><a href="#1stPage">Develop</a></li>
+	<li data-menuanchor="2ndPage"><a href="#2ndPage">Product</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Design</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">Tool</a></li>
+	<li data-menuanchor="5thPage"><a href="#5thPage">Social</a></li>
+	<li data-menuanchor="6thPage"><a href="#6thPage">Media</a></li>
+	<li data-menuanchor="7thPage"><a href="#7thPage">Hobby</a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<h1>红</h1>
+			<p>Develop</p>
+		</div>
+	</div>
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1" data-anchor="slide1">
+			<div class="intro">
+				<h1>橙</h1>
+				<p>Product</p>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2" data-anchor="slide2">
+			<h1>Slide 2</h1>
+		</div>
+
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>黄</h1>
+			<p>Design</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>绿</h1>
+			<p>Tool</p>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="intro">
+			<h1>青</h1>
+			<p>Social</p>
+		</div>
+	</div>
+	<div class="section" id="section5">
+		<div class="intro">
+			<h1>蓝</h1>
+			<p>Media</p>
+		</div>
+	</div>
+	<div class="section" id="section6">
+		<div class="intro">
+			<h1>紫</h1>
+			<p>Hobby</p>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
