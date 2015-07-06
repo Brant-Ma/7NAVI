@@ -18,4 +18,6 @@ You are free to **Share** and **Adapt** as long as you follow the license terms:
 - Attribution
 - NonCommercial
 - ShareAlike
-PS: my page [7NAVI-Rainbow Navigation](http://7brant.me/7navi/) used two excellent files in the process of creation: **jquery.fullPage.css** and **jquery.fullPage.js**, which was created by [Alvaro Trigo](https://github.com/alvarotrigo/fullPage.js), please get permission before using it.
+
+## Postscript
+My page [7NAVI-Rainbow Navigation](http://7brant.me/7navi/) used two excellent files in the process of creation: **jquery.fullPage.css** and **jquery.fullPage.js**, which was created by [Alvaro Trigo](https://github.com/alvarotrigo/fullPage.js), please get permission before using it.
