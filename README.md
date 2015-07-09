@@ -13,6 +13,7 @@ The types is as follows:
 - Hobby colored purple, containing links about ACGN, book, movie and music.
 
 ## License
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 This page is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 You are free to **Share** and **Adapt** as long as you follow the license terms:
 - Attribution
