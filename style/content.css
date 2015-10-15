@@ -1,58 +1,127 @@
 body {
+	font-size: 100%;
 	margin: 0;
 	color: white;
 	overflow: hidden;
-	line-height: 1.7em;
+	line-height: 2em;
+	background-color: #9b59b6;
+	opacity: .9;
 	font-family: "Microsoft Yahei", 'Hiragino Sans GB', 'Source Han Sans',  sans-serif;
-}
-a:link, a:visited {
-	color: white;
-	text-decoration: none;
-}
-a:hover {
-	color: white;
-	border-bottom: #EAEAEA;
-}
-h2 {
-	text-align: center;
-	padding-bottom: 5%;
-	border-bottom: 2px solid white;
-}
-h3 {
-	text-indent: 7%;
 }
 ul {
 	list-style: none;
 }
-li:hover {
+a:link, a:visited {
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	transition: all .3s ease-out;
+}
+a:hover {
 	padding-left: 2%;
+	border-left: 5px solid white;	
 	font-weight: bolder;
+}
+h2 {
+	font-size: 2em;
+	font-family: Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;
+	text-align: center;
+	text-shadow: 3px 3px 7px #111;
+	padding: 20px;
+	margin: 0;
+}
+h3 {
+	font-size: 1.2em;
+	text-indent: 9%;
+	padding: 5px 0;
+	margin: 0;
 }
 section.top7 {
 	float: left;
 	width: 14.28%;
 	padding-bottom: 5000px;
 	margin-bottom: -5000px;
-	box-shadow: -2px 0 16px 2px #666;
+	transition: all .7s ease;
 }
+
+section.top7:hover {
+	width: 22%;
+}
+section.top7:not(:hover) {
+	width: 13%;
+}
+
+section h3 {
+	transition: background-color .5s ease-in-out;
+}
+
+/* red */
 section#develop {
 	background-color: #e74c3c;
 }
+section#develop:hover h3 {
+	background-color: #c0392b;
+}
+section#develop:hover a:hover {
+	border-color: #c0392b;
+}
+/* orange */
 section#product {
 	background-color: #e67e22;
 }
+section#product:hover h3 {
+	background-color: #d35400;
+}
+section#product:hover a:hover {
+	border-color: #d35400;
+}
+/* yellow */	
 section#design {
 	background-color: #f1c40f;
 }
+section#design:hover h3 {
+	background-color: #f39c12;
+}
+section#design:hover a:hover {
+	border-color: #f39c12;
+}
+/* green */
 section#tool {
 	background-color: #2ecc71;
 }
+section#tool:hover h3 {
+	background-color: #27ae60;
+}
+section#tool:hover a:hover {
+	border-color: #27ae60;
+}
+/* cyan */
 section#social {
 	background-color: #1abc9c;
 }
+section#social:hover h3 {
+	background-color: #16a085;
+}
+section#social:hover a:hover {
+	border-color: #16a085;
+}
+/* blue */
 section#media {
 	background-color: #3498db;
 }
+section#media:hover h3 {
+	background-color: #2980b9;
+}
+section#media:hover a:hover {
+	border-color: #2980b9;
+}
+/* purple */
 section#hobby {
 	background-color: #9b59b6;
+}
+section#hobby:hover h3 {
+	background-color: #8e44ad;
+}
+section#hobby:hover a:hover {
+	border-color: #8e44ad;
 }
