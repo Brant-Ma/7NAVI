@@ -15,9 +15,11 @@ a:link, a:visited {
 	color: white;
 	font-size: 1em;
 	text-decoration: none;
+}
+li a:link, li a:visited {
 	transition: all .3s ease-out;
 }
-a:hover {
+li a:hover {
 	padding-left: 2%;
 	border-left: 5px solid white;	
 	font-weight: bolder;
@@ -124,4 +126,30 @@ section#hobby:hover h3 {
 }
 section#hobby:hover a:hover {
 	border-color: #8e44ad;
+}
+
+.switcher {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+	height: 50px;
+	background-color: black; 
+	opacity: .4;
+	transition: all .7s ease;
+}
+.switcher:hover {	
+	left: 10%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto; 
+	border-radius: 10px;
+	opacity: .7;
+}
+.switcher span {
+	font: 30px/1.7 Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;
+	text-align: center;
+	display: block;
+	width: 100%;
 }
