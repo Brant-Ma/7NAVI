@@ -128,6 +128,7 @@ section#hobby:hover a:hover {
 	border-color: #8e44ad;
 }
 
+/* 风格转换条 */
 .switcher {
 	position: fixed;
 	left: 0;
@@ -152,4 +153,26 @@ section#hobby:hover a:hover {
 	text-align: center;
 	display: block;
 	width: 100%;
+}
+
+/* 每个item的悬停tooltip */
+a[tip] {
+	position: relative;
+}
+a[tip]::after {
+	content: attr(tip);
+	white-space: nowrap; 
+	font-weight: normal;
+	line-height: 1.4;
+	visibility: hidden;
+	position: absolute;
+	left: 125%;
+	top: -6px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: rgba(127, 140, 141, .7);
+}
+a[tip]:hover:after {
+	visibility: visible;	
 }
