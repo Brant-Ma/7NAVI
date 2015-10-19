@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	color: white;
 	overflow: hidden;
-	line-height: 2em;
+	line-height: 1.8em;
 	background-color: #9b59b6;
 	opacity: .9;
 	font-family: "Microsoft Yahei", 'Hiragino Sans GB', 'Source Han Sans',  sans-serif;
@@ -13,7 +13,7 @@ ul {
 }
 a:link, a:visited {
 	color: white;
-	font-size: 1em;
+	font-size: .9em;
 	text-decoration: none;
 }
 li a:link, li a:visited {
@@ -35,7 +35,7 @@ h2 {
 h3 {
 	font-size: 1.2em;
 	text-indent: 9%;
-	padding: 5px 0;
+	padding: 3px 0;
 	margin: 0;
 }
 section.top7 {
