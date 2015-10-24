@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	color: white;
 	overflow: hidden;
-	line-height: 1.8em;
+	line-height: 1.4em;
 	background-color: #9b59b6;
 	opacity: .9;
 	font-family: "Microsoft Yahei", 'Hiragino Sans GB', 'Source Han Sans',  sans-serif;
@@ -25,7 +25,7 @@ li a:hover {
 	font-weight: bolder;
 }
 h2 {
-	font-size: 2em;
+	font-size: 1.6em;
 	font-family: Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;
 	text-align: center;
 	text-shadow: 3px 3px 7px #111;
@@ -33,7 +33,7 @@ h2 {
 	margin: 0;
 }
 h3 {
-	font-size: 1.2em;
+	font-size: .8em;
 	text-indent: 9%;
 	padding: 3px 0;
 	margin: 0;
@@ -54,7 +54,7 @@ section.top7:not(:hover) {
 }
 
 section h3 {
-	transition: background-color .7s ease-in .3s;
+	transition: background-color .5s linear .2s;
 }
 
 /* red */
@@ -166,7 +166,7 @@ a[tip]::after {
 	line-height: 1.4;
 	visibility: hidden;
 	position: absolute;
-	left: 125%;
+	left: 130%;
 	top: -6px;
 	padding: 5px 10px;
 	border-radius: 5px;
