@@ -43,7 +43,7 @@ section h3 {
 	transition: background-color .5s linear .2s;
 }
 
-/* 各个列宽动态调节 */
+/* 各个列的初始宽度 */
 section.top7 {
 	float: left;
 	width: 14.28%;
@@ -51,14 +51,6 @@ section.top7 {
 	margin-bottom: -5000px;
 	transition: all .7s ease;
 }
-
-section.top7:hover {
-	width: 22%;
-}
-section.top7:not(:hover) {
-	width: 13%;
-}	
-
 
 /* red */
 section#develop {

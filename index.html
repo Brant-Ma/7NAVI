@@ -24,6 +24,7 @@
 
 	<title>7NAVI</title>
 	<link rel="stylesheet" type="text/css" href="style/column.css" />
+	<script src="script/jquery.min.js"></script>
 
 </head>
 <body>
@@ -317,6 +318,18 @@
 		<div class="switcher"><a href="slide.html"><span>Switch to Slide View</span></a></div>
 		
 	</div>	
+	
+	<script>
+		// 动态调整：在column之间
+		$("section.top7").mouseover(function(){
+			$(this).css("width", "22%");
+			$(this).siblings("section").css("width", "13%");
+		});
+		// 静态归零：屏幕无鼠标时
+		$("body").mouseleave(function(){
+			$("section.top7").css("width", "14.28%");
+		})
+	</script>
 
 </body>
 </html>
