@@ -30,16 +30,14 @@ h2 {
 	font-family: Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;
 	text-align: center;
 	text-shadow: 3px 3px 7px #111;
-	padding: 15px;
+	padding: 15px 0;
 	margin: 0;
 }
 h3 {
 	font-size: .8em;
-	text-indent: 9%;
+	text-indent: 14%;
 	padding: 3px 0;
 	margin: 0;
-}
-section h3 {
 	transition: background-color .5s linear .2s;
 }
 
