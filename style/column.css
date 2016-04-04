@@ -12,10 +12,12 @@ body {
 ul {
 	list-style: none;
 }
+
 a:link, a:visited {
 	color: #fff;
 	font-size: .9em;
 	text-decoration: none;
+	white-space: nowrap;	
 }
 li a:link, li a:visited {
 	transition: all .3s ease-out;
