@@ -2,33 +2,36 @@
 body {
 	font-size: 100%;
 	margin: 0;
-	color: #eee;
+	color: #fff;
 	overflow: hidden;
 	line-height: 1.4em;
-	background-color: #9b59b6;
-	opacity: .8;
+	background-color: #5C6BC0;
 	font-family: "Microsoft Yahei", 'Hiragino Sans GB', 'Source Han Sans',  sans-serif;
 }
 ul {
 	list-style: none;
 }
-/* text-overflow 的正确配合用法 */
 li {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
 a:link, a:visited {
-	color: #fff;
+	color: #eee;
 	font-size: .9em;
 	text-decoration: none;	
+}
+/* 单独为黄色区域优化字色显示 */
+section#design a:link,
+section#design a:visited {
+	color: #fefefe;
 }
 li a:link, li a:visited {
 	transition: all .3s ease-out;
 }
 li a:hover {
-	padding-left: 2%;
-	border-left: 5px solid #eee;	
+	padding-left: 10px;
+	border-left: 5px solid;	
 	font-weight: bolder;
 }
 h2 {
@@ -38,6 +41,7 @@ h2 {
 	text-shadow: 3px 3px 7px #111;
 	padding: 15px 0;
 	margin: 0;
+	margin-bottom: 10px;
 }
 h3 {
 	font-size: .8em;
@@ -58,73 +62,73 @@ section.top7 {
 
 /* red */
 section#develop {
-	background-color: #e74c3c;
+	background-color: #FF7043;
 }
 section#develop:hover h3 {
-	background-color: #c0392b;
+	background-color: #F4511E;
 }
 section#develop:hover a:hover {
-	border-color: #c0392b;
+	border-color: #F4511E;
 }
 /* orange */
 section#product {
-	background-color: #e67e22;
+	background-color: #FFA726;
 }
 section#product:hover h3 {
-	background-color: #d35400;
+	background-color: #FB8C00;
 }
 section#product:hover a:hover {
-	border-color: #d35400;
+	border-color: #FB8C00;
 }
 /* yellow */	
 section#design {
-	background-color: #f1c40f;
+	background-color: #FFCA28;
 }
 section#design:hover h3 {
-	background-color: #f39c12;
+	background-color: #FFB300;
 }
 section#design:hover a:hover {
-	border-color: #f39c12;
+	border-color: #FFB300;
 }
 /* green */
 section#tool {
-	background-color: #2ecc71;
+	background-color: #66BB6A;
 }
 section#tool:hover h3 {
-	background-color: #27ae60;
+	background-color: #43A047;
 }
 section#tool:hover a:hover {
-	border-color: #27ae60;
+	border-color: #43A047;
 }
 /* cyan */
 section#social {
-	background-color: #1abc9c;
+	background-color: #26A69A;
 }
 section#social:hover h3 {
-	background-color: #16a085;
+	background-color: #00897B;
 }
 section#social:hover a:hover {
-	border-color: #16a085;
+	border-color: #00897B;
 }
 /* blue */
 section#media {
-	background-color: #3498db;
+	background-color: #42A5F5;
 }
 section#media:hover h3 {
-	background-color: #2980b9;
+	background-color: #1E88E5;
 }
 section#media:hover a:hover {
-	border-color: #2980b9;
+	border-color: #1E88E5;
 }
 /* purple */
 section#hobby {
-	background-color: #9b59b6;
+	background-color: #5C6BC0;
 }
 section#hobby:hover h3 {
-	background-color: #8e44ad;
+	background-color: #3949AB;
 }
 section#hobby:hover a:hover {
-	border-color: #8e44ad;
+	border-color: #3949AB;
 }
 
 /* 风格转换条 */
